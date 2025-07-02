@@ -1,0 +1,44 @@
+{
+    "proto_unit_cell": {
+        "layers": [
+            {
+                "material": 1,
+                "thickness": 5e-07,
+                "shapes": [
+                    {
+                        "material": {
+                            "name": "Si3N4",
+                            "custom_csv_dir": "d:\\Documents\\MetaMaterial_MetaOptics\\metacode\\menv\\lib\\site-packages\\metabox\\material_data"
+                        },
+                        "radius": {
+                            "vmin": 1e-07,
+                            "vmax": 5e-07,
+                            "name": "radius",
+                            "initial_value": null,
+                            "sampling": 100,
+                            "value": null
+                        },
+                        "x_pos": 0,
+                        "y_pos": 0
+                    }
+                ],
+                "enforce_4fold_symmetry": false
+            },
+            {
+                "material": {
+                    "name": "quartz",
+                    "custom_csv_dir": "d:\\Documents\\MetaMaterial_MetaOptics\\metacode\\menv\\lib\\site-packages\\metabox\\material_data"
+                },
+                "thickness": 1e-06,
+                "shapes": [],
+                "enforce_4fold_symmetry": false
+            }
+        ],
+        "periodicity": [
+            3.5e-07,
+            3.5e-07
+        ],
+        "refl_index": 1.0,
+        "tran_index": 1.0
+    }
+}
